@@ -2,7 +2,7 @@
 My Raspi 4 gets a bit warm some times... this emails me when it does. This is a simple script for a simple computer.
 If you need this for a bigger computer, I've written one for that too! https://github.com/davethepear/hot-server
 
-I don't believe I had to install anything, it just reads a file.
+I don't believe I had to install anything, it just reads a file. To send mail, install postfix. `sudo apt install postfix`
 Open your crontab: `crontab -e` (no sudo needed)
 plop this in the crontab
 ```bash
